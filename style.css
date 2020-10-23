@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 :root {
   --primary-color: #05668d;
   --secondary-color: #00a896;
@@ -7,4 +9,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #f4f4f4;
 }
