@@ -32,3 +32,8 @@ body {
   color: #333;
   text-decoration: none;
 }
+
+/* Hide nested ul by default */
+#navbar ul li ul {
+  display: none;
+}
