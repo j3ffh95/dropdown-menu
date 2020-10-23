@@ -83,3 +83,19 @@ body {
 #navbar ul li:hover ul li:hover span {
   background-color: var(--secondary-color);
 }
+
+#showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--primary-color);
+  height: 300px;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+#showcase h1 {
+  color: #fff;
+  font-size: 4rem;
+}
