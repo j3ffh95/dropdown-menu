@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 :root {
-  --primary-color: #05668d;
-  --secondary-color: #00a896;
+  --primary-color: #00a896;
+  --secondary-color: #05668d;
 }
 
 * {
@@ -69,4 +69,17 @@ body {
 #navbar ul li:hover ul li:hover {
   background-color: #e0e0e0;
   color: inherit;
+}
+#navbar ul li:hover ul li span {
+  float: right;
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+#navbar ul li:hover ul li:hover span {
+  background-color: var(--secondary-color);
 }
