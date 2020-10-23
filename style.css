@@ -13,8 +13,12 @@
 
 html,
 body {
-  background-color: #f4f4f4;
+  background: #f4f4f4;
   font-family: "Open Sans", sans-serif;
+}
+
+.current {
+  background: var(--primary-color);
 }
 
 #navbar ul {
@@ -40,7 +44,7 @@ body {
 
 #navbar ul li:hover {
   cursor: pointer;
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   color: #f4f4f4;
 }
 
@@ -59,7 +63,7 @@ body {
 
 #navbar ul li:hover ul li {
   display: block;
-  background-color: #e7e7e7;
+  background: #e7e7e7;
 }
 
 #navbar ul li:hover ul li a {
@@ -67,7 +71,7 @@ body {
 }
 
 #navbar ul li:hover ul li:hover {
-  background-color: #e0e0e0;
+  background: #e0e0e0;
   color: inherit;
 }
 #navbar ul li:hover ul li span {
@@ -75,13 +79,13 @@ body {
   font-size: 0.8rem;
   color: #fff;
   text-align: center;
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   padding: 0.2rem 0.5rem;
   border-radius: 5px;
 }
 
 #navbar ul li:hover ul li:hover span {
-  background-color: var(--secondary-color);
+  background: var(--secondary-color);
 }
 
 #showcase {
@@ -89,7 +93,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   height: 300px;
   flex-direction: column;
   padding: 0 2rem;
